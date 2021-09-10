@@ -1,0 +1,135 @@
+body {
+    height: 100vw;
+    background: linear-gradient(45deg, #EECFBB, #C5DDE8);
+}
+
+table {
+    margin: 0 auto;
+    background-color: white;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    font-size: 20px;
+}
+
+label {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+th {
+    width: 200px;
+}
+
+td {
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
+
+li {
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    list-style: none;
+}
+
+li:hover, li.active {
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.tableHeader {
+    border: 2px solid #76744b;
+    padding: 4px 10px;
+    position: relative;
+    cursor: pointer;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    background: gold;
+}
+
+.tableCell {
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+.inverse-sort-click:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    border-radius: 50%;
+    right: 4px;
+    background-image: url("../assets/images/arrow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.4s;
+    transform: rotate(-90deg);
+}
+
+.inverse-sort:after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 24px;
+    border-radius: 50%;
+    right: 4px;
+    background-image: url("../assets/images/arrow.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.4s;
+    transform: rotate(90deg);
+}
+
+
+.infoTable {
+    background-color: white;
+    width: 800px;
+    margin: 50px auto;
+    border: 2px solid black;
+}
+
+
+.invalidSearch {
+    display: none;
+}
+
+.GOOD {
+    color: red;
+}
+
+
+.inputWrapper {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.selectInput {
+    height: 30px;
+    align-self: end;
+    margin-right: 200px;
+}
+
+.pageWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
